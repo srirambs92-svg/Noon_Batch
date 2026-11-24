@@ -1,0 +1,54 @@
+1. What will happen to supermarket profit if 
+selling prices (Current:1250$) increase by 5%, 10%, 13%, 20% respectively
+assuming sales volume and purchase costs 1200$ remain unchanged?
+
+2. How does total supermarket profit change when selling prices 1250$ 
+increase or decrease by 2%, 5%, 8% and 10%, 
+while demand and purchase costs(initial 1200$) 1250,1300,1350,1400?
+
+3. What percentage increase in selling prices is required 
+to achieve a 20% increase in total supermarket profit, 
+assuming demand and purchase costs remain unchanged?
+
+
+SOLVER:
+1. How many units of each of the five products should the 
+supermarket stock to maximise total expected profit, subject to:
+- Purchasing budget not exceeding ₹70,000.
+- Total shelf space not exceeding 400 units.
+- Minimum display stock requirements for every product.
+
+2. Management wants to maximise profit but also ensure 
+that at least 500 units of products are stocked in total.
+
+Question: What combination of the five products 
+maximises profit while satisfying the purchasing budget, 
+shelf-space capacity and minimum display requirements?
+
+3. Management believes that rice and cooking oil are 
+essential products and must account for at least 
+40% of the total stock quantity.
+
+Question: What is the most profitable product mix 
+while ensuring rice and cooking oil together account for 
+at least 40% of total units stocked?
+
+
+MONTE CARLO:
+1. The supermarket cannot accurately predict next month's 
+demand for its five products. 
+Demand fluctuates based on seasonality, 
+customer preferences and market conditions.
+
+Business question:
+
+If future demand for each product is uncertain, 
+what is the probability that the supermarket will achieve a 
+monthly profit of at least ₹1,00,000?
+
+- Estimate demand distributions using historical monthly sales.
+- Generate random demand values.
+- Simulate monthly revenue, costs and profit over 1,000 trials.
+- Calculate average profit and the probability of 
+  achieving the target.
+
